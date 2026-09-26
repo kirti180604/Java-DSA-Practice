@@ -1,0 +1,9 @@
+to run in terminal:
+ctrl + , -> java debug console -> set to internal terminal
+
+to run in new screen:
+ctrl + , -> java debug console -> set to external terminal
+
+to run in debug console:
+ctrl + , -> java debug console -> set to internal console
+
