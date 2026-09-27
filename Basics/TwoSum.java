@@ -7,6 +7,11 @@ public class TwoSum {
     // of two indices
     // the sum of which is equal to the target
     // assuming that each array (input) would have exactly one solution
+
+    // time complexity here: O(n^2) (nested loop)
+    // space complexity here: O(1) (not creating any extra array pf size n)
+    // returning array of two elements regardless of the input size
+
     static int[] SumOfTwo(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
