@@ -1,5 +1,9 @@
 package String;
 
+// we are asked to find the length of the last word in a string
+// time complexity here: O(n)
+// space complexity here: O(1)
+
 public class LengthOfLastWord {
     public static int lastWordLength(String s) {
         int count = 0;
