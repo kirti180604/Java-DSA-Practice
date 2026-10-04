@@ -6,6 +6,7 @@ import java.util.Scanner;
 // Anagram : An anagram is a word or phrase made by rearranging the exact same letters from another word or phrase
 // earth -> heart
 // elbow -> below
+// here we have to check whether the given strings are anagram or not
 // time complexity here: 
 // space complexity here: 
 public class ValidAnagram {
