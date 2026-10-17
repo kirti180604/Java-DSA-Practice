@@ -1,6 +1,0 @@
-/**
- * kidsWithGreatestNumberOfCnadies
- */
-public class kidsWithGreatestNumberOfCnadies {
-
-}
