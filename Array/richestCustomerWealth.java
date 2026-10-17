@@ -3,8 +3,7 @@ public class RichestCustomerWealth {
     // row -> customers
     // column -> bank
     // we have to calculate each customer's wealth from all of his/her banks and
-    // then
-    // check which customer is the richest.
+    // then check which customer is the richest.
     // time complexity here: O(n^2)
     // space complexity here: O(1)
     public static void richestCustomer(int[][] accounts) {
