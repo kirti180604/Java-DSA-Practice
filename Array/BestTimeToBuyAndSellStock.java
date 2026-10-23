@@ -14,8 +14,7 @@
 public class BestTimeToBuyAndSellStock {
     public static int bestTimeToBuyOrSellStock(int[] prices) {
         int buyPrice = Integer.MAX_VALUE;
-        // maximum possible value for a 32 bit signed integer ( 2,147,483,647 or 2³¹ -
-        // 1)
+        // maximum possible value for a 32 bit signed integer ( 2,147,483,647 or 2³¹-1)
         int maxProfit = 0;
         for (int i = 0; i < prices.length; i++) {
             if (buyPrice < prices[i]) {
